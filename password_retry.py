@@ -6,6 +6,9 @@ while n > 0:
         break
     else:
         n-=1
-        if n != 0:
-            print('密碼錯誤! 還有',n,'次機會')
+        print('密碼錯誤! ')
+        if n > 0:
+            print('還有',n,'次機會')
+        else:
+            print('沒機會了! 要鎖帳號了啦!')
         
